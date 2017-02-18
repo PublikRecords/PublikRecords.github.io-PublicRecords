@@ -1,0 +1,12 @@
+.custom-navbar{
+    border: none; 
+    background-color: white; 
+    color: black; 
+}
+
+.navbar .nav > li > a, .navbar-default .navbar-brand{
+    color: black !important; // I dont know why, but its being annoying. 
+    background-color: white !important; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em
+}

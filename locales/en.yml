@@ -1,0 +1,15 @@
+---
+en:
+    # HOME PAGE
+
+    nav-brand-name: "public records"
+    nav-about: "about"
+    nav-artists: "artists"
+    nav-events: "events"
+    nav-music: "noise"
+    welcome-tag-line: "different people doing the same thing."
+    welcome-sub-tag-line: "label from pennsylvania and new york. don't try too hard."
+
+    # ABOUT PAGE
+    about-header: "what we are about"
+    about-text: "this is what we are about."

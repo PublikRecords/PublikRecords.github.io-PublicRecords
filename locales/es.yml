@@ -1,0 +1,12 @@
+---
+es:
+    # HOME PAGE
+    nav-brand-name: "public records"
+    nav-about: "informacion"
+    nav-artists: "musicos"
+    nav-events: "eventos"
+    nav-music: "musica"
+
+    # ABOUT PAGE
+    about-header: "what we are about"
+    about-text: "this is what we are about."
