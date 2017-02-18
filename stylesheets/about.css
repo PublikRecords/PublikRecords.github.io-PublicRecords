@@ -1,10 +1,9 @@
 #about {
-  background-color: #191919;
   padding: 9em;
   padding-top: 6em;
-  color: white;
   font-size: 1.1em;
   font-family: 'Times New Roman', Times, serif; }
 
 #about > h1 {
-  margin-bottom: 3em; }
+  margin-bottom: 2em;
+  text-decoration: underline; }
