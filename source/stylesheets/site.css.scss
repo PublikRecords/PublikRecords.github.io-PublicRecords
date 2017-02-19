@@ -6,14 +6,14 @@
 @import "artists.css.scss";
 @import "navbar.css.scss";
 
-html{
-  font-size: 100%;
+*{
   color: black; 
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .logo img {
@@ -24,18 +24,21 @@ body {
 .welcome > h1 {
   font-size: 1.8em;
   font-weight: 400;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .welcome > p{
   color: gray; 
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s;
   padding-bottom: 14.5em;
+}
+
+.media-glyph{
+  width: 2.75em;
+  height: 2.75em;
 }
 
 @-webkit-keyframes welcome {
