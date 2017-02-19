@@ -6175,8 +6175,7 @@ button.close {
 #about {
   padding: 9em;
   padding-top: 6em;
-  font-size: 1.1em;
-  font-family: 'Times New Roman', Times, serif; }
+  font-size: 1.1em; }
 
 #about > h1 {
   margin-bottom: 2em;
@@ -6187,8 +6186,7 @@ button.close {
   padding: 9em;
   padding-top: 6em;
   color: black;
-  font-size: 1.1em;
-  font-family: 'Times New Roman', Times, serif; }
+  font-size: 1.1em; }
 
 #artists > h1 {
   margin-bottom: 3em; }
@@ -6201,16 +6199,15 @@ button.close {
 .navbar .nav > li > a, .navbar-default .navbar-brand {
   color: black !important;
   background-color: white !important;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em; }
 
-html {
-  font-size: 100%;
-  color: black; }
+* {
+  color: black;
+  font-family: 'Inconsolata', monospace; }
 
 body {
   text-align: center;
-  font-size: 1em; }
+  font-size: 1.5em; }
 
 .logo img {
   height: 18.75em;
@@ -6218,17 +6215,19 @@ body {
 
 .welcome > h1 {
   font-size: 1.8em;
-  font-weight: 400;
-  font-family: 'Times New Roman', Times, serif; }
+  font-weight: 400; }
 
 .welcome > p {
-  color: gray;
-  font-family: 'Times New Roman', Times, serif; }
+  color: gray; }
 
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s;
   padding-bottom: 14.5em; }
+
+.media-glyph {
+  width: 2.75em;
+  height: 2.75em; }
 
 @-webkit-keyframes welcome {
   from {
