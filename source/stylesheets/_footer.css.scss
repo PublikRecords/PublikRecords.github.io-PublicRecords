@@ -1,0 +1,17 @@
+$footer-height: 60px;
+
+.media-glyph{
+  width: 2.75em;
+  height: 2.75em;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+} 
+
+.footer > .media-link > .glyphicon{
+  font-size: 2.25em;
+}

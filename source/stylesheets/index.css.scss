@@ -1,0 +1,38 @@
+.logo img {
+  height: 18.75em;
+  margin-top: 6em;
+}
+
+.welcome > h1 {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.welcome > p{
+  color: gray; 
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+  padding-bottom: 14.5em;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}

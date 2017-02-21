@@ -9,6 +9,7 @@
     %title= current_page.data.title || "Public Records"
     %link{:href => "https://fonts.googleapis.com/css?family=Inconsolata", :rel => "stylesheet", :type => "text/css"}/
     = stylesheet_link_tag :site
+    = auto_stylesheet_link_tag
     = javascript_include_tag :all
   %body{:class => page_classes}
     = partial "navbar"
