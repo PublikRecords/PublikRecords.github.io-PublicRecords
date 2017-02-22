@@ -1,3 +1,20 @@
-%h2
-    This page is under construction...<br>
-    =link_to "return home", "/"
+---
+title: "Public Records | Artists"
+artists:
+    - Holy Toledo
+    - Redflushed
+    - The Most Beautiful Images
+    - Tiny Planet
+    - Bedroom Tapes
+---
+
+.artists-container
+    .row.no-gutter
+        .col-md-8
+            .artist-list
+                %ul.list-group
+                    -current_page.data.artists.each do |artist|
+                        %li.list-group-item
+                            =artist
+        .col-md-4.no-gutter
+            Artist info comming to this panel soon. For now enjoy clicking on them!
