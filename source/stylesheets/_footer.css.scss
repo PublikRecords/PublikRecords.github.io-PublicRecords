@@ -1,17 +1,14 @@
-$footer-height: 60px;
+.navbar-nav{
+    display: inline-block;
+    float: none;
+}
 
-.media-glyph{
-  width: 2.75em;
-  height: 2.75em;
+.navbar{
+    text-align: center;
 }
 
 .footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: $footer-height;
-} 
-
-.footer > .media-link > .glyphicon{
-  font-size: 2.25em;
+    color: black;
+    background-color: white; 
+    border: none;
 }

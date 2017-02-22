@@ -1,7 +1,11 @@
-%footer.footer
-	%a.media-link{href: "https://twitter.com/pblcrcds"}
-		=image_tag('twitter-solid.png', {class: 'media-glyph'})
-		@pblcrcds
-	%a.media-link{href: "pblcrcds@gmail.com"}
-		%span.glyphicon.glyphicon-envelope
-		pblcrcds@gmail.com
+%nav.navbar.navbar-default.navbar-fixed-bottom.footer
+	.container
+		%ul.nav.navbar-nav
+			%li
+				%a.navbar-text{href: "https://twitter.com/pblcrcds"}
+					%i.fa.fa-twitter
+					@pblcrcds
+			%li
+				%a.navbar-text{href: "mailto:pblcrcds@gmail.com"}
+					%i.fa.fa-envelope-o
+					pblcrcds@gmail.com
