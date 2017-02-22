@@ -1,9 +1,0 @@
-.custom-navbar {
-  border: none;
-  background-color: white;
-  color: black; }
-
-.navbar .nav > li > a, .navbar-default .navbar-brand {
-  color: black !important;
-  background-color: white !important;
-  font-size: 1.1em; }

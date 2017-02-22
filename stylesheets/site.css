@@ -6172,25 +6172,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-#about {
-  padding: 9em;
-  padding-top: 6em;
-  font-size: 1.1em; }
-
-#about > h1 {
-  margin-bottom: 2em;
-  text-decoration: underline; }
-
-#artists {
-  background-color: white;
-  padding: 9em;
-  padding-top: 6em;
-  color: black;
-  font-size: 1.1em; }
-
-#artists > h1 {
-  margin-bottom: 3em; }
-
 .custom-navbar {
   border: none;
   background-color: white;
@@ -6201,44 +6182,23 @@ button.close {
   background-color: white !important;
   font-size: 1.1em; }
 
+.navbar-nav {
+  display: inline-block;
+  float: none; }
+
+.navbar {
+  text-align: center; }
+
+.footer {
+  color: black;
+  background-color: white;
+  border: none; }
+
 * {
   color: black;
   font-family: 'Inconsolata', monospace; }
 
 body {
   text-align: center;
-  font-size: 1.5em; }
-
-.logo img {
-  height: 18.75em;
-  margin-top: 6em; }
-
-.welcome > h1 {
-  font-size: 1.8em;
-  font-weight: 400; }
-
-.welcome > p {
-  color: gray; }
-
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
-  padding-bottom: 14.5em; }
-
-.media-glyph {
-  width: 2.75em;
-  height: 2.75em; }
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  50% {
-    -webkit-transform: scale(0);
-    opacity: 0; }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1; }
-  to {
-    -webkit-transform: scale(1); } }
+  font-size: 1.5em;
+  margin-bottom: 60px; }

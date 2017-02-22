@@ -1,9 +1,9 @@
-#artists {
-  background-color: white;
-  padding: 9em;
-  padding-top: 6em;
-  color: black;
-  font-size: 1.1em; }
+.artists-container {
+  padding: 10%; }
 
-#artists > h1 {
-  margin-bottom: 3em; }
+.artist-list {
+  margin: 0; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
