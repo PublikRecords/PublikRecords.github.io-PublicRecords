@@ -6181,6 +6181,8 @@ button.close {
   color: black !important;
   background-color: white !important;
   font-size: 1.1em; }
+  .navbar .nav > li > a:hover, .navbar-default .navbar-brand:hover {
+    text-decoration: underline !important; }
 
 .navbar-nav {
   display: inline-block;
